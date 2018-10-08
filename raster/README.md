@@ -39,18 +39,16 @@ Complete la tabla:
 Describa los resultados obtenidos. 
 En el caso de anti-aliasing describir las técnicas exploradas, citando las referencias.
 
-La rasterización se realizo usando la norma del vector. 
-Antialiasing: https://en.wikipedia.org/wiki/Multisample_anti-aliasing 
+* La rasterización se realizo usando la norma del vector. 
+* Antialiasing: https://en.wikipedia.org/wiki/Multisample_anti-aliasing .
 El anti-aliasing de multisample, si cualquiera de las ubicaciones de múltiples muestras en un píxel está cubierta por el 
 triángulo que se está representando, se debe realizar un cálculo de sombreado para ese triángulo. Sin embargo, este cálculo 
 solo debe realizarse una vez para todo el píxel, independientemente de la cantidad de posiciones de muestra cubiertas; 
 el resultado del cálculo de sombreado se aplica simplemente a todas las ubicaciones de muestras múltiples relevantes. 
 En total se usaron 4 subpixeles por cada pixel para el ejemplo. 
-https://elcodigografico.wordpress.com/2014/03/29/coordenadas-baricentricas-en-triangulos/ 
+* https://elcodigografico.wordpress.com/2014/03/29/coordenadas-baricentricas-en-triangulos/ .
 Las coordenadas baricéntricas nos ayudan para a cada píxel obtener sus coordenadas baricéntricas las cuales pueden 
 ser empleadas para interpolar valores de los vértices del triángulo como color, vector normal, valor de profundidad, 
 coordenadas de textura, valores de peso en la edición de formas, entre otros.
 
-## Entrega
 
-* Plazo: 7/10/18 a las 24h.
